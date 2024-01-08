@@ -6,25 +6,25 @@
 
 从coco数据集选取cat、dog两个类，训练集共1000个实例（每个类500个），验证集共300个实例。得到训练集810张图片，验证集264张图片。数据集标注格式如下图：
 
-![image-20240107200118282](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200118282.png)
+![image-20240107200118282](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200118282.png)
 
 ## 2.数据集可视化
 
 ​											                    Mask掩码可视化
 
-![image-20240107200245913](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200245913.png)
+![image-20240107200245913](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200245913.png)
 
 ![image-20240107200751568](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200751568.png)
 
-![image-20240107200757224](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200757224.png)
+![image-20240107200757224](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200757224.png)
 
 ​													                 数据裁剪
 
-​									                 ![image-20240107201024163](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201024163.png)
+​									                 ![image-20240107201024163](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201024163.png)
 
 ## 3 复现 训练阶段
 
-![image-20240107201209040](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201209040.png)
+![image-20240107201209040](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201209040.png)
 
 在官方预训练权重基础上，以学习率0.001训练30 epochs head层网络，学习率0.0001再训练10轮 ResNet stage 4以上全部网络，最后以学习率0.0001再训练30 epochs全部层网络。
 
@@ -53,21 +53,21 @@ WEIGHT_DECAY = 0.0001
 
 ### 5.1 训练集损失
 
-![image-20240107201733140](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201733140.png)
+![image-20240107201733140](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201733140.png)
 
 ### 5.2 验证集损失
 
-![image-20240107201822933](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201822933.png)
+![image-20240107201822933](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201822933.png)
 
 ### 5.3 RP曲线及IOU值计算
 
-![image-20240107201902108](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201902108.png)
+![image-20240107201902108](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201902108.png)
 
 ![image-20240107201925345](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201925345.png)
 
 ### 5.4 测试结果
 
-​                                           ![image-20240107202035748](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107202035748.png)![image-20240107202039948](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107202039948.png)
+​                                           ![image-20240107202035748](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107202035748.png)![image-20240107202039948](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107202039948.png)
 
 ### 6 总结
 
