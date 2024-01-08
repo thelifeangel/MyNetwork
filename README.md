@@ -2,7 +2,7 @@
 
 ## 1. 数据集选取
 
-​                                        ![image-20240107200036985](D:\PycharmProjects\Mask_RCNN\MyNetwork\display\image-20240107200036985.png) 
+​                                        ![image-20240107200036985]([MyNetwork/display/image-20240107200036985.png at main · thelifeangel/MyNetwork (github.com)](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200036985.png)) 
 
 ​		                         ![image-20240107200048266](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200048266.png)
 
