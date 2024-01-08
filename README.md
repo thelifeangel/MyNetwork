@@ -2,7 +2,7 @@
 
 ## 1. 数据集选取
 
-​                                     https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200036985.png
+​    ![pic1](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200036985.png) 
 
 从coco数据集选取cat、dog两个类，训练集共1000个实例（每个类500个），验证集共300个实例。得到训练集810张图片，验证集264张图片。数据集标注格式如下图：
 
