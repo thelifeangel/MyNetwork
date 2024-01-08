@@ -14,8 +14,6 @@
 
 ![image-20240107200245913](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200245913.png)
 
-![image-20240107200751568](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107200751568.png)
-
 ![image-20240107200757224](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107200757224.png)
 
 ​													                 数据裁剪
@@ -63,7 +61,7 @@ WEIGHT_DECAY = 0.0001
 
 ![image-20240107201902108](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201902108.png)
 
-![image-20240107201925345](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240107201925345.png)
+![image-20240107201925345](https://github.com/thelifeangel/MyNetwork/blob/main/display/image-20240107201925345.png)
 
 ### 5.4 测试结果
 
